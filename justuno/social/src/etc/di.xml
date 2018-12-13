@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
-    <preference for="Magento\Theme\Block\Html\Header" type="Justuno\Social\Block\Html\Header" />
-    <preference for="Magento\Config\Model\ResourceModel\Config" type="Justuno\Social\Model\Rewrite\Demo" />
-    <preference for="Magento\Config\Controller\Adminhtml\System\Config\Save" type="Justuno\Social\Controller\Rewrite\Adminhtml\System\Config\Save" />
-</config>
