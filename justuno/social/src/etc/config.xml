@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <justuno_social_control>
+            <loginapi>
+                <justuno_key>467cd758-5745-4385-906b-6c76271c343a</justuno_key>
+            </loginapi>
+        </justuno_social_control>
+        <justuno_social_control>
+            <registerapi>
+                <justuno_new_key>467cd758-5745-4385-906b-6c76271c343a</justuno_new_key>
+            </registerapi>
+        </justuno_social_control>
+        <justuno_social_control>
+            <registerapi>
+                <justuno_new_email></justuno_new_email>
+            </registerapi>
+        </justuno_social_control>
+        <justuno_social_control>
+            <registerapi>
+                <justuno_new_password></justuno_new_password>
+            </registerapi>
+        </justuno_social_control>
+        <justuno_social_control>
+            <registerapi>
+                <justuno_new_domain></justuno_new_domain>
+            </registerapi>
+        </justuno_social_control>
+        <justuno_social_control>
+            <registerapi>
+                <justuno_new_phone></justuno_new_phone>
+            </registerapi>
+        </justuno_social_control>
+    </default>
+</config>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Inchoo d.o.o.
+ * created by Zoran Salamun(zoran.salamun@inchoo.net)
+ * Module is created for Custom Controllers demonstration
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">    <router id="admin">
+        <route id="justuno_social" frontName="justuno_social">
+            <module name="Justuno_Social" />
+        </route>
+        <route id="justuno_social_control" frontName="justuno_social_control">
+            <module name="Justuno_Social" />
+        </route>
+    </router>
+</config>
