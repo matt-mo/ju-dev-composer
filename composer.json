@@ -13,8 +13,7 @@
             "url": "http://github.com/matt-mo/ju-dev-composer.git"
         }
     ],
-    "require": { 
-        "matt-mo/ju-dev-composer": "*",
+    "require" : { 
         "monolog/monolog": "1.0.*" 
     },
     "authors": [
