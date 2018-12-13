@@ -1,0 +1,26 @@
+{
+    "name": "justuno/integration",
+    "description": "Justuno offers optimized marketing campaigns with customizable design, powerful targeting & segmentation, and A/B testing.",
+    "type": "magento2-module",
+    "version": "100.0.3",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {"php": "~5.5.22|~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.1.1|~7.1.2|~7.1.3|~7.1.4|~7.1.5|~7.1.6|~7.1.7|~7.1.8"
+    },
+    "authors": [
+        {
+            "email": "matt.m@justuno.com",
+            "name": "mattmo"
+        }
+    ],
+    "autoload": {
+	"files": [
+            "registration.php"
+        ],        
+	"psr-4": {
+            "Justuno\\Integration\\": ""
+        }
+    }
+}
