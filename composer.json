@@ -8,7 +8,8 @@
     ],
     "minimum-stability":"dev",
     "require": { 
-        "justuno/ju-dev-composer": "*" 
+        "matt-mo/ju-dev-composer": "*",
+        "monolog/monolog": "1.0.*" 
     },
     "authors": [
         {
