@@ -7,6 +7,12 @@
         "AFL-3.0"
     ],
     "minimum-stability":"dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/matt-mo/ju-dev-composer.git"
+        }
+    ],
     "require": { 
         "matt-mo/ju-dev-composer": "*",
         "monolog/monolog": "1.0.*" 
