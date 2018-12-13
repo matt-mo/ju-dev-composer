@@ -6,7 +6,10 @@
         "OSL-3.0",
         "AFL-3.0"
     ],
-    "require": {},
+    "minimum-stability":"dev",
+    "require": { 
+        "justuno/ju-dev-composer": "dev-master" 
+    },
     "authors": [
         {
             "email": "matt.m@justuno.com",
