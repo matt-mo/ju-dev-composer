@@ -8,7 +8,7 @@
     ],
     "minimum-stability":"dev",
     "require": { 
-        "justuno/ju-dev-composer": "dev-master" 
+        "justuno/ju-dev-composer": "*" 
     },
     "authors": [
         {
