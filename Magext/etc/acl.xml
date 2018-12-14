@@ -6,7 +6,7 @@
 				<resource id="Magento_Backend::stores">
 					<resource id="Magento_Backend::stores_settings">
 						<resource id="Magento_Config::config">
-							<resource id="Justuno_Integration::config_justuno_integration" title="account"/>
+							<resource id="Judevap_Magext::config_judevap_magext" title="account"/>
 						</resource>
 					</resource>
 				</resource>

@@ -19,30 +19,22 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Justuno\Integration\Block\HTML;
+namespace Judevap\Magext\Setup;
 
-class Justuno_embed extends \Magento\Framework\View\Element\Template
+use Magento\Framework\Setup\InstallDataInterface;
+use Magento\Framework\Setup\ModuleDataSetupInterface;
+use Magento\Framework\Setup\ModuleContextInterface;
+
+class InstallData implements InstallDataInterface
 {
 
     /**
-     * Constructor
-     *
-     * @param \Magento\Framework\View\Element\Template\Context  $context
-     * @param array $data
+     * {@inheritdoc}
      */
-    public function __construct(
-        \Magento\Framework\View\Element\Template\Context $context,
-        array $data = []
+    public function install(
+        ModuleDataSetupInterface $setup,
+        ModuleContextInterface $context
     ) {
-        parent::__construct($context, $data);
-    }
-
-    /**
-     * @return string
-     */
-    public function getEmbedScript()
-    {
-        //Your block code
-        return __('Hello Developer! This how to get the storename: %1 and this is the way to build a url: %2', $this->_storeManager->getStore()->getName(), $this->getUrl('contacts'));
+        //Your install script
     }
 }

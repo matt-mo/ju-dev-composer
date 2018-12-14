@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Justuno\Integration\Controller\Index;
+namespace Judevap\Magext\Controller\Index;
 
 class Index extends \Magento\Framework\App\Action\Action
 {

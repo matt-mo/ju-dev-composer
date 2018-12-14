@@ -19,20 +19,30 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Justuno\Integration\Setup;
+namespace Judevap\Magext\Block\HTML;
 
-use Magento\Framework\Setup\ModuleDataSetupInterface;
-use Magento\Framework\Setup\UpgradeDataInterface;
-use Magento\Framework\Setup\ModuleContextInterface;
-
-class UpgradeData implements UpgradeDataInterface
+class Justuno_embed extends \Magento\Framework\View\Element\Template
 {
 
     /**
-     * {@inheritdoc}
+     * Constructor
+     *
+     * @param \Magento\Framework\View\Element\Template\Context  $context
+     * @param array $data
      */
-    public function upgrade(
-        ModuleDataSetupInterface $setup,
-        ModuleContextInterface $context
-    ) {}
+    public function __construct(
+        \Magento\Framework\View\Element\Template\Context $context,
+        array $data = []
+    ) {
+        parent::__construct($context, $data);
+    }
+
+    /**
+     * @return string
+     */
+    public function getEmbedScript()
+    {
+        //Your block code
+        return __('Hello Developer! This how to get the storename: %1 and this is the way to build a url: %2', $this->_storeManager->getStore()->getName(), $this->getUrl('contacts'));
+    }
 }

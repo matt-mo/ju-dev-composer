@@ -19,22 +19,20 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Justuno\Integration\Setup;
+namespace Judevap\Magext\Setup;
 
-use Magento\Framework\Setup\InstallSchemaInterface;
+use Magento\Framework\Setup\ModuleDataSetupInterface;
+use Magento\Framework\Setup\UpgradeDataInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
-use Magento\Framework\Setup\SchemaSetupInterface;
 
-class InstallSchema implements InstallSchemaInterface
+class UpgradeData implements UpgradeDataInterface
 {
 
     /**
      * {@inheritdoc}
      */
-    public function install(
-        SchemaSetupInterface $setup,
+    public function upgrade(
+        ModuleDataSetupInterface $setup,
         ModuleContextInterface $context
-    ) {
-        //Your install script
-    }
+    ) {}
 }

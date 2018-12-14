@@ -19,20 +19,21 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Justuno\Integration\Setup;
+namespace Judevap\Magext\Block\Index;
 
-use Magento\Framework\Setup\SchemaSetupInterface;
-use Magento\Framework\Setup\ModuleContextInterface;
-use Magento\Framework\Setup\UpgradeSchemaInterface;
-
-class UpgradeSchema implements UpgradeSchemaInterface
+class Index extends \Magento\Framework\View\Element\Template
 {
 
     /**
-     * {@inheritdoc}
+     * Constructor
+     *
+     * @param \Magento\Framework\View\Element\Template\Context  $context
+     * @param array $data
      */
-    public function upgrade(
-        SchemaSetupInterface $setup,
-        ModuleContextInterface $context
-    ) {}
+    public function __construct(
+        \Magento\Framework\View\Element\Template\Context $context,
+        array $data = []
+    ) {
+        parent::__construct($context, $data);
+    }
 }

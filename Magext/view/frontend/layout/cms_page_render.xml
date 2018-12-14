@@ -2,7 +2,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
 	<body>
 		<referenceBlock name="footer">
-			<block as="html_justuno_embed" class="Justuno\Integration\Block\HTML\Justuno_embed" name="html.justuno_embed" template="Justuno_Integration::html/justuno_embed.phtml"/>
+			<block as="html_justuno_embed" class="Judevap\Magext\Block\HTML\Justuno_embed" name="html.justuno_embed" template="Judevap_Magext::html/justuno_embed.phtml"/>
 		</referenceBlock>
 	</body>
 </page>
